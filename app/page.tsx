@@ -138,9 +138,9 @@ export default function Home() {
 
         <div className="mt-6 text-center text-gray-700">
           <p className="text-lg">Come train with Jeremiah in beautiful Wimberley, Texas!</p>
-          <p className="text-sm mt-2">
+          {/* <p className="text-sm mt-2">
             Find us at: <strong>2V2X+6M, Wimberley, Texas</strong>
-          </p>
+          </p> */}
         </div>
       </section>
       <section>

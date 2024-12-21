@@ -1,9 +1,11 @@
 "use client"
 
 import Image from "next/image";
-import MapComponent from "./components/MapComponent.js";
+// import MapComponent from "./components/MapComponent.js";
 import Footer from "./components/footer.jsx";
+import dynamic from 'next/dynamic';
 
+const MapComponent = dynamic(() => import('./components/MapComponent.js'), { ssr: false });
 
 export default function Home() {
   return (
